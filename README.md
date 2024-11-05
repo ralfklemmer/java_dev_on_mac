@@ -80,6 +80,31 @@ Die verwendeten Maven- und Java-Version werden dir angezeigt.
 
 ![Maven Version](./images/maven_version.png)
 
+# :three: Pimp my Terminal
+
+
+## Oh-My-ZSH installieren
+Installiere Oh-My-ZSH über:
+```bash 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+### Theme PowerLevel10k installieren
+#### a) Schriftarten installieren
+Dieses Theme benötigt eine Schriftart, die auch Icons enthalten. Entpacke daher die Fonts in dieser zip-Datei und installiere sie per Doppelklick. \
+[:package:   Download MesloLGS Fonts](./resources/Font_MesloLGS.zip)
+
+> Bei Problemen schaue dir die [Dokumentation des Autors von Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k) an.
+
+#### b) Terminal Schriftart wechseln
+ ![Terminal Schriftart ändern](./images/terminal_set_font.gif)
+
+#### c) Theme installieren
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+#### d) Theme in .zshrc aktivieren
+![Terminal Theme setzten](./images/terminal_set_theme.gif)
+
 ### :construction: Nützliche Eclipse Plugins
 tbd
 
