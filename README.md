@@ -107,19 +107,11 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 > 
 ![Terminal Theme setzten](./images/terminal_set_theme.gif)
 
-### :construction: Nützliche Eclipse Plugins
-tbd
-
-### :construction: Nützliche IntelliJ Plugins
-tbd
-
-## :construction: Wie verwalte ich mehrere Coding Projekte?
-tbd \
-{Stichworte: allen Code in "repo" Ordner}
-
-# :construction: Fortgeschrittene Themen
-## :construction: SDKMAN automatisch die Java-Version wechseln lassen
-tbd
+## Wie verwalte ich mehrere Coding Projekte?
+Es ist hilfreich die ausgecheckten Repositories an einem Ort zu haben. Bei mir ist dies im Benutzerverzeichnis im Unterordner ```repo```.
+Darin habe ich z.B. Unterordner nach Firma oder Projekt. Darin befinden sich dann die eigentlichen geclonten git-Repositories.
+Hier ein Beispiel wie ich die DHBW Repositories bei mir habe:
+![Repo Orga Beispiel](./images/screenshot_repo.png)
 
 # Appendix
 ## Manuelle Installation der Programme
@@ -135,3 +127,15 @@ IntelliJ via Toolbox: <https://www.jetbrains.com/toolbox-app/>
 
 ### Sublime-Text
 Download unter: <https://www.sublimetext.com/>
+
+# :construction: IDEEN FÜR WEITERE DOKU :construction:
+
+### :construction: Nützliche Eclipse Plugins
+tbd
+
+### :construction: Nützliche IntelliJ Plugins
+tbd
+
+# :construction: Fortgeschrittene Themen
+## :construction: SDKMAN automatisch die Java-Version wechseln lassen
+tbd
