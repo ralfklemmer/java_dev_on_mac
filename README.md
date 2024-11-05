@@ -103,6 +103,8 @@ Dieses Theme benötigt eine Schriftart, die auch Icons enthalten. Entpacke daher
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 #### d) Theme in .zshrc aktivieren
+> Bitte sicherstellen, dass du in deinem Benutzerverzeichnis stehst!
+> 
 ![Terminal Theme setzten](./images/terminal_set_theme.gif)
 
 ### :construction: Nützliche Eclipse Plugins
