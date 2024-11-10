@@ -103,6 +103,18 @@ Dieses Theme benötigt eine Schriftart, die auch Icons enthalten. Entpacke daher
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 #### d) Theme in .zshrc aktivieren
+
+```bash
+nano ~/.zshrc
+```
+
+Suche die Variable ZSH_TEHME und ändere die Zeile zu ZSH_THEME="powerlevel10k/powerlevel10k"
+
+```bash
+source ~/.zshrc
+```
+
+#### e) Theme konfigurieren
 > Bitte sicherstellen, dass du in deinem Benutzerverzeichnis stehst!
 > 
 ![Terminal Theme setzten](./images/terminal_set_theme.gif)
